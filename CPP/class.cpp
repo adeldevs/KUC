@@ -40,10 +40,15 @@ int main() {
 
         cout << "subject 3: ";
         cin >> st[i].mark3;
+        
+        cout << "\n\n";
     }
     
     
     for (int i = 0; i < 3; i++) {
         cout << "Name : \t" << " Mark 1\t" << " Mark 2 \t" << " Mark 3 \t" << "Total \t"<< "Average \t" << endl;
+        cout << st[i].name << "\t\t" << st[i].mark1 << "\t\t"  << st[i].mark2 << "\t\t"  << st[i].mark3 << "\t\t" << st[i].total()  << "\t\t" << st[i].average() ; 
+        cout << "\n\n";
     }
+
 }
